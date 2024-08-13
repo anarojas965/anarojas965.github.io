@@ -1,0 +1,506 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#bio {
+    background-color: #ececec;
+    padding: 60px 20px;
+}
+
+.bio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+.center-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center-photo img {
+    max-width: 300px; /* Adjust the value as needed */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add this to styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    padding: 60px 20px;
+    text-align: center;
+    background: url(bb.png) no-repeat center center;
+    background-size: cover;
+}
+
+.center-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.center-photo img {
+    max-width: 300px; /* Adjust the value as needed */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+/* Add this to styles.css */
+
+#bio {
+    background-color: #ececec;
+    padding: 60px 20px;
+    text-align: center; /* Center the text */
+}
+
+.bio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-content img {
+    border-radius: 50%;
+    width: 250px; /* Increase the size of the picture */
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.bio-content p {
+    max-width: 600px; /* Set a maximum width for the bio text */
+    margin: 0 auto; /* Center the text */
+    font-size: 18px; /* Increase font size for better readability */
+    line-height: 1.6; /* Improve text spacing */
+}
+/* Add this to styles.css */
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    margin: 0;
+}
+/* Add this to styles.css */
+
+#portfolio {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.portfolio-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows for responsive wrapping if needed */
+}
+
+.portfolio-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 45%; /* Adjust as needed */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    margin: 0;
+}
+/* Add this to styles.css */
+
+#portfolio {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Default styles for all portfolio items */
+.portfolio-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Styles for images in portfolio items */
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Description text styling */
+.portfolio-item p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Styles for the first row with descriptions */
+.portfolio-item:nth-child(-n+4) {
+    max-width: 100%;
+}
+
+/* Styles for frames from the second to the fourth row */
+.portfolio-item:nth-child(n+5):nth-child(-n+16) {
+    padding: 5px; /* Reduced padding */
+    max-width: 80%; /* Slightly smaller size */
+}
+
+/* Styles for frames from the fifth row onward */
+.portfolio-item:nth-child(n+17) {
+    padding: 5px; /* Reduced padding */
+    max-width: 70%; /* Smaller size */
+}
+/* Add this to styles.css */
+
+#portfolio {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Default styles for all portfolio items */
+.portfolio-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Styles for images in portfolio items */
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+/* Description text styling */
+.portfolio-item p {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Styles for items with descriptions */
+.portfolio-item.description p {
+    margin-top: 0; /* Adjust margin if needed */
+}
+
+/* Styles for frames without descriptions */
+.portfolio-item:not(.description) {
+    padding: 5px; /* Reduced padding for frames without descriptions */
+}
+
+/* General styles for the body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #e0e0e0; /* Light gray background color */
+    background-image: url('path/to/your-background-image.jpg'); /* Optional: Add a background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background image (optional) */
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Section styles */
+section {
+    padding: 60px 20px;
+}
+
+/* Bio Section Styles */
+#bio {
+    background-color: #ffffff; /* White background for the Bio section */
+    background-image: url('bb.png'); /* Optional: Add a background image */
+    background-size: cover; /* Cover the section */
+    background-position: center; /* Center the background image */
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    background-color: #f5f5f5; /* Light gray background for the Portfolio section */
+    background-image: url('bb.png'); /* Optional: Add a background image */
+    background-size: cover; /* Cover the section */
+    background-position: center; /* Center the background image */
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #ffffff; /* White background for the Contact section */
+    background-image: url('bb.png'); /* Optional: Add a background image */
+    background-size: cover; /* Cover the section */
+    background-position: center; /* Center the background image */
+}
+
+/* Footer styles */
+footer {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
